@@ -2,7 +2,7 @@
 📝 Introduction
 The Bangalore housing market is dynamic and influenced by numerous features such as location, size, number of bedrooms, and availability of amenities. This project aims to leverage machine learning classification techniques to predict whether a property is likely to be purchased based on its features. By building predictive models, we hope to assist potential buyers, real estate agents, and stakeholders in making informed decisions.
 
-🛠️ Body
+🛠️ Project structure
 1. Data Loading and Exploration
 The dataset used in this project, Bengaluru_House_Data.csv, contains various property-related features including location, square footage, number of bedrooms (BHK), number of bathrooms, and price. Initial exploration was conducted using pandas and seaborn to understand data distribution, identify null values, and assess feature relevance.
 
@@ -27,5 +27,5 @@ Models were evaluated using:
 Train/Test Split Performance: Accuracy, Precision, Recall, and F1-score metrics were computed.
 Cross-Validation: 5-fold cross-validation was used to assess model robustness. Results were tabulated and visualized with bar plots for comparison.
 
-5. Conclusion
+📝 Conclusion
 This project successfully demonstrated how classification algorithms can be used to model real estate buying decisions in Bangalore. Among all models, ensemble methods like Random Forest and Gradient Boosting often performed best in terms of predictive accuracy and robustness. Moreover, by extending the predictive model into a ranking mechanism, the system can assist in recommending top properties to users — laying a foundation for future developments in personalized real estate recommendation engines.
